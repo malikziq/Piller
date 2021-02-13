@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextSecure.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/dark_cyan</item>
+        <item name="android:textColorHint">@color/cyan</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="TextSecure.LightActionBar"
+        parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextStyle">@style/TextSecure.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/TextSecure.SubtitleTextStyle</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="TextSecure.SubtitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextSecure.LightActionBar.TabBar"
+        parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">@color/cyan</item>
+        <item name="background">@color/dark_cyan</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#BFffffff</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+
+</resources>

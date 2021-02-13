@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.Piller" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/dark_cyan</item>
+        <item name="colorPrimaryVariant">@color/cyan</item>
+        <item name="colorOnPrimary">@color/off_white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
@@ -12,5 +12,33 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="bottomSheetDialogTheme">@style/Theme.Design.Light.BottomSheetDialog</item>
+
+        <item name="actionBarStyle">@style/TextSecure.LightActionBar</item>
+        <item name="actionBarTabBarStyle">@style/TextSecure.LightActionBar.TabBar</item>
+
+        <item name="android:textColor">@color/read_black</item>
+        <item name="android:textColorSecondary">@color/hint_color</item>
+        <item name="android:windowBackground">@color/off_white</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+
+
     </style>
+
+
+<!--    <style name="TextSecure.BaseLightTheme" parent="@style/Theme.MaterialComponents.Light.Bridge">-->
+
+<!--        <item name="actionModeBackground">@color/signal_background_secondary</item>-->
+<!--        <item name="actionModeCloseDrawable">@drawable/ic_x_tinted</item>-->
+<!--        <item name="actionModeStyle">@style/TextSecure.ActionModeStyle</item>-->
+
+<!--        <item name="colorControlActivated">@color/core_ultramarine</item>-->
+<!--        <item name="colorControlHighlight">@color/core_ultramarine</item>-->
+<!--        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyleLight</item>-->
+<!--        <item name="android:alertDialogTheme">@style/AppCompatDialogStyleLight</item>-->
+<!--        <item name="homeAsUpIndicator">@drawable/ic_arrow_left_24</item>-->
+<!--        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_left_24</item>-->
+<!--    </style>-->
+
 </resources>
